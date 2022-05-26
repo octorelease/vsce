@@ -23,4 +23,6 @@ export default async function (context: IContext, config: IPluginConfig): Promis
     const cmdOutput = await exec.getExecOutput("npm", ["view", name, "dist.tarball"]);
     const url = cmdOutput.stdout.trim();
     context.releasedPackages.sample = [{ name, url }];
+    context.logger.info(JSON.stringify(context));
+    context.logger.info(JSON.stringify(config));
 }
