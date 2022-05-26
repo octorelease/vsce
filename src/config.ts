@@ -16,5 +16,6 @@
 
 export interface IPluginConfig {
     vscePublish?: boolean;
+    ovsxPublish?: boolean;
     vsixDir?: boolean;
 }

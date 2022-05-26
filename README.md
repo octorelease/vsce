@@ -1,12 +1,11 @@
-# Sample plugin
+# VSCE plugin for Octorelease
 
-**TODO:** Update readme for VSCE plugin
 
-[Octorelease](https://github.com/octorelease/octorelease) sample plugin.
+Visual Studio Code Extension plugin for [Octorelease](https://github.com/octorelease/octorelease).
 
-[![Build Status](https://github.com/octorelease/sample-plugin/workflows/Test/badge.svg)](https://github.com/octorelease/sample-plugin/actions?query=workflow%3ATest+branch%3Amaster)
-[![npm latest version](https://img.shields.io/npm/v/@octorelease/sample-plugin/latest.svg)](https://www.npmjs.com/package/@octorelease/sample-plugin)
-<!-- [![npm next version](https://img.shields.io/npm/v/@octorelease/sample-plugin/next.svg)](https://www.npmjs.com/package/@octorelease/sample-plugin) -->
+[![Build Status](https://github.com/octorelease/vsce-plugin/workflows/Test/badge.svg)](https://github.com/octorelease/vsce-plugin/actions?query=workflow%3ATest+branch%3Amaster)
+[![npm latest version](https://img.shields.io/npm/v/@octorelease/vsce-plugin/latest.svg)](https://www.npmjs.com/package/@octorelease/vsce-plugin)
+<!-- [![npm next version](https://img.shields.io/npm/v/@octorelease/vsce-plugin/next.svg)](https://www.npmjs.com/package/@octorelease/vsce-plugin) -->
 
 | Step | Description |
 |------|-------------|
@@ -19,7 +18,7 @@
 ## Install
 
 ```bash
-$ npm install @octorelease/sample-plugin -D
+$ npm install @octorelease/vsce-plugin -D
 ```
 
 ## Usage
@@ -29,7 +28,7 @@ The plugin can be configured in the [Octorelease configuration file](https://git
 ```json
 {
   "plugins": [
-    ["@octorelease/sample-plugin", {
+    ["@octorelease/vsce-plugin", {
       "name": "world"
     }]
   ]

@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "tsc && npm run lint",
-    "lint": "eslint src",
+    "lint": "eslint ./**/*.ts",
     "prepare": "tsc",
     "test": "jest",
     "watch": "tsc -w"
